@@ -1,0 +1,17 @@
+.column-home{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(125, 51, 243);
+    height: 640px;
+    color: white;
+}
+
+.column-home h1{
+    font-size: 50px;
+}
+
+.column-home p{
+font-size: 25px;
+}
