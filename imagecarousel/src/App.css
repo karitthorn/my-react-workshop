@@ -1,0 +1,46 @@
+.image{
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+body{
+  background: black;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.slider{
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftArrow{
+  position: absolute;
+  top: 50%;
+  left:50px;
+  font-size: 5rem;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.rightArrow{
+  position: absolute;
+  top: 50%;
+  right:50px;
+  font-size: 5rem;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.slide{
+  opacity: 0;
+}
+
+.slide.active{
+  opacity: 1;
+}
